@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Birthday Gift</title>
+
+<link rel="stylesheet" href="code.css">
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<section id="login">
+
+    <h1>Welcome 💖</h1>
+
+    <h2>gift is locked</h2>
+    <p>💖 The day destiny introduced you to the world</p>
+    <p>Hint= formate= date/month</p>
+
+    <input id="pass" type="password" placeholder="Enter Password">
+
+    <button onclick="unlockSite()">Unlock</button>
+
+</section>
+
+
+<!-- GIFT -->
+<section id="giftScreen">
+
+    <div id="giftWrap" onclick="tapGift()">
+
+        <div id="lid"></div>
+        <div id="box"></div>
+
+    </div>
+
+    <p id="giftText">Tap Gift Box 🎀</p>
+
+    <div id="questionBox">
+
+        <p>When did we meet for the first time?💌</p>
+
+        <input id="answer">
+
+        <button onclick="checkAnswer()">Submit</button>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL -->
+<section id="final">
+
+    <div id="photos">
+
+        <img src="00.jpeg">
+        <img src="1.jpeg">
+        <img src="2.jpeg">
+        <img src="3.jpeg">
+        <img src="4.jpeg">
+        <img src="5.jpeg">
+        <img src="6.jpeg">
+        <img src="07.jpeg">
+        <img src="8.jpeg">
+        <img src="9.jpeg">
+        <img src="10.jpeg">
+        <img src="11.jpeg">
+        <img src="12.jpeg">
+        <img src="13.jpeg">
+        <img src="14.jpeg">
+        <img src="15.jpeg">
+        <img src="16.jpeg">
+
+    </div>
+
+    <div id="message">
+        <h1>❤️Sorry❤️</h1>
+        <p>पता नहीं ये मैसेज पढ़कर तुम क्या सोचोगी, लेकिन जो भी लिख रहा हूं, दिल से लिख रहा हूं।<br>
+तुम्हारे जाने के बाद एहसास हुआ कि तुम मेरी ज़िंदगी का कितना अहम हिस्सा हो। दिन किसी तरह गुजर जाता है,<br> लेकिन रातें बहुत भारी लगती हैं। हर छोटी-छोटी बात में तुम्हारी याद आ जाती है। कभी हमारी बातें याद आती हैं,<br> कभी हमारी लड़ाइयाँ, और कभी वो पल जिनमें हम बिना किसी वजह के भी खुश रहते थे।<br>
+मैं मानता हूं कि मुझसे गलतियां हुई होंगी। शायद कई बार मैंने तुम्हें दुख पहुंचाया होगा,<br> तुम्हारी भावनाओं को समझ नहीं पाया होऊंगा। उसके लिए मैं दिल से माफ़ी मांगता हूं। काश समय को पीछे ले जा पाता और उन गलतियों को सुधार पाता।<br>
+लेकिन आज बस इतना कहना चाहता हूं कि मैं अब भी तुम्हें उतना ही चाहता हूं।<br> तुम्हारी जगह मेरी ज़िंदगी में कोई नहीं ले सकता। मैं हर दिन यही उम्मीद करता हूं कि एक दिन तुम फिर से मेरा हाथ थाम लोगी और हम पहले की तरह साथ चलेंगे।<br>
+इसे मेरी ज़िद मत समझना, इसे मेरे दिल की आवाज़ समझना।<br>
+इसे मेरी हार समझना है तो हार समझ लेना, अगर मुझे बर्बाद समझना है तो बर्बाद समझ लेना। अगर थोड़ी सी भी फ़िक्र बाकी है, तो मुझे अपना यार समझ लेना।<br>
+अगर कहीं प्यार अब भी बाकी है, तो इसे मेरा इज़हार समझ लेना।<br>
+मेरे इस ख़त को मेरी जान समझ लेना, जो मैं लफ़्ज़ों में न कह सकूं, उन्हें मेरे जज़्बात समझ लेना।<br>
+तुम्हारा जन्मदिन आने वाला है... और शायद मेरी सबसे बड़ी ख्वाहिश यही है कि इस बार भी तुम्हारे चेहरे की मुस्कान का हिस्सा बन सकूं। कोई बड़ा तोहफा नहीं चाहिए, बस तुम्हारा साथ चाहिए।
+एक आख़िरी बार दिल से कह रहा हूं—
+मानसी, अगर हो सके तो वापस आ जाओ। मैं तुम्हें खोना नहीं चाहता। तुम्हारी बहुत याद आती है, और शायद हमेशा आती रहेगी।
+</p>
+    </div>
+
+    <div id="albumSection">
+
+        <div id="albumCover" onclick="openAlbum()">
+            <h1>🥹Unlock Our Memories</h1>
+            <p>Click To Open</p>
+        </div>
+
+        <div id="albumPhotos">
+
+            <img src="00.jpeg">
+            <img src="1.jpeg">
+            <img src="2.jpeg">
+            <img src="3.jpeg">
+            <img src="4.jpeg">
+            <img src="5.jpeg">
+            <img src="6.jpeg">
+            <img src="07.jpeg">
+            <img src="8.jpeg">
+            <img src="9.jpeg">
+            <img src="10.jpeg">
+            <img src="11.jpeg">
+            <img src="12.jpeg">
+            <img src="13.jpeg">
+            <img src="14.jpeg">
+            <img src="15.jpeg">
+            <img src="16.jpeg">
+
+        </div>
+
+    </div>
+
+    <div id="viewer">
+
+        <button id="closeBtn" onclick="closePhoto()">✕</button>
+        <img id="fullPhoto">
+
+    </div>
+
+</section>
+
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+    <source src="Khat Navjot Ahuja (pagalall.com).mp3" type="audio/MPEG">
+</audio>
+
+
+<script src="code.js"></script>
+
+</body>
+</html>
